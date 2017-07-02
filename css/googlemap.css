@@ -1,0 +1,174 @@
+#googlemaps {
+    height: 634px;
+    width: 100%;
+    position: absolute;
+    top: 1000;
+    left: 0;
+    z-index: 0;
+}
+
+#info {
+    position: relative;
+    z-index: 1;
+    width: 500px;
+    margin: 50px auto 0;
+    background: 343332;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.contactform {
+    position: relative;
+    color: 343332;
+    top: 350px;
+    left: 50%;
+    padding: 15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: 343332;
+    height: 430px;
+    max-width: 934px;
+    overflow: hidden;
+    width: 934px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: rgba(26, 26, 26, 0.1) 0 1px 3px 0;
+    -webkit-box-shadow: rgba(26, 26, 26, 0.1) 0 1px 3px 0;
+    box-shadow: rgba(26, 26, 26, 0.1) 0 1px 3px 0;
+}
+
+@media (max-width: 500px) {
+    .contact-form {
+        margin: 0 0 100px;
+        width: 100%;
+    }
+}
+
+.contactform .email,
+.contactform .message,
+.contactform .name {
+    position: relative;
+}
+
+.contactform .email input:focus,
+.contactform .email textarea:focus,
+.contactform .message input:focus,
+.contactform .message textarea:focus,
+.contactform .name input:focus,
+.contactform .name textarea:focus {
+    background: #f4f5f6;
+}
+
+@media (max-width: 500px) {
+    .contactform .email,
+    .contactform .name {
+        width: 100%;
+    }
+}
+
+.contactform .email input,
+.contactform .name input {
+    padding: 23px 0 8px 23px;
+}
+
+.contactform .email {
+    border-left: 1px #e6e6e6 solid;
+    float: right;
+}
+
+@media (max-width: 500px) {
+    .contactform .email {
+        border-left: none;
+        border-top: 1px #e6e6e6 solid;
+    }
+}
+
+.contactform .message {
+    border-bottom: 1px #e6e6e6 solid;
+    border-top: 1px #e6e6e6 solid;
+    clear: both;
+}
+
+.contactform .message textarea {
+    height: 100px;
+    padding: 20px;
+}
+
+.contactform .name {
+    float: left;
+}
+
+.contactform .submit {
+    background: #f4f5f6;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.contactform .submit .button {
+    background: #3498db;
+    border: 1px #3498db solid;
+    color: white;
+    float: right;
+    padding: 9px 0;
+    width: 100px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .contactform .submit .button {
+        float: none;
+    }
+}
+
+.contactform .submit .button:hover {
+    background: #4aa3df;
+}
+
+.contactform .submit .button:active {
+    background: #258cd1;
+}
+
+.contactform .submit .button:focus {
+    border-color: #b6daf2;
+    -moz-box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
+    -webkit-box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
+    box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
+}
+
+.contactform .submit .user-message {
+    float: left;
+    padding-top: 22px;
+}
+
+@media (max-width: 500px) {
+    .contactform .submit .user-message {
+        float: none;
+        padding: 0 0 10px;
+    }
+}
+
+#down{
+    top: 1940;
+}
+.copyright .social-links{
+    z-index: 2;
+    top: 1440;
+
+}
+
